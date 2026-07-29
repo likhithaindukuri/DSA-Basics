@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <List>
 using namespace std;
 // Pairs
 void expPairs()
@@ -15,6 +14,7 @@ void expPairs()
     pair<int, int> arr[] = {{11, 12}, {13, 14}};
     cout << arr[1].second << endl;
 }
+
 // Vectors
 void expVectors()
 {
@@ -32,12 +32,6 @@ void expVectors()
     vector<int> v(5); // array with size 5 with all 0's in that
 }
 
-void expLists()
-{
-    List<int> ls;
-    ls.push_back(1);
-    ls.emplace_back(2);
-}
 int main()
 {
     expPairs();
